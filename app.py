@@ -20,5 +20,5 @@ def index(data1, data2):
         return requests.post(webhook, json=data)
   return 'Error, get methods cannot be used here'
 
-
-app.run(host='0.0.0.0', port=1337)
+'''if __name__ == '__main__':
+  app.run()'''
